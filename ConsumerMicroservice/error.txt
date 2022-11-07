@@ -1,0 +1,6 @@
+2022-03-13 13:08:56,750 [http-nio-8001-exec-1] ERROR com.cognizant.service.ConsumerBusinessServiceImpl - consumer already Exists
+2022-03-13 14:46:31,944 [http-nio-8001-exec-3] ERROR com.cognizant.service.ConsumerBusinessServiceImpl - Sorry!!, No Consumer Found!!
+2022-03-13 14:47:03,829 [http-nio-8001-exec-4] ERROR com.cognizant.service.ConsumerBusinessServiceImpl - Sorry!!, No Consumer Found!!
+2022-03-13 15:24:03,217 [http-nio-8001-exec-5] ERROR com.cognizant.service.ConsumerBusinessServiceImpl - consumer already Exists
+2022-03-13 15:24:37,164 [http-nio-8001-exec-4] ERROR com.cognizant.service.ConsumerBusinessServiceImpl - Sorry!!, No Consumer Found!!
+2022-03-13 19:02:48,998 [http-nio-8001-exec-1] ERROR com.cognizant.service.ConsumerBusinessServiceImpl - Sorry!!, No Consumer Found!!

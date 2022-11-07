@@ -1,0 +1,148 @@
+2022-Mar-72 15:24:20 INFO com.cognizant.pas.policy.controller.PolicyController :createPolicy :73 =>Start createPolicy
+2022-Mar-72 15:24:20 INFO com.cognizant.pas.policy.service.PolicyServiceImpl :createPolicy :129 =>Start createPolicyService
+2022-Mar-72 15:24:20 INFO com.cognizant.pas.policy.service.PolicyServiceImpl :getConsumerBusiness :201 =>Start getConsumerBusiness
+2022-Mar-72 15:24:20 DEBUG com.cognizant.pas.policy.service.PolicyServiceImpl :getConsumerBusiness :203 =>consumerBusinessDetails : {}ConsumerBusinessDetails [consumerID=1, firstName=Sayali, lastName=chaudhari, dob=Fri Mar 11 00:00:00 IST 2022, businessName=salon, panDetails=123456789012, email=s@gmail.com, phone=1234567890, website=www.html.com, businessOverview=salon, validity=two, agentName=saurabh, agentID=12, businessID=1, businessCategory=salon, businessType=rented, businessTurnover=12000, capitalInvested=1200, totalEmployees=12, businessValue=1, businessAge=2]
+2022-Mar-72 15:24:20 INFO com.cognizant.pas.policy.service.PolicyServiceImpl :getConsumerBusiness :204 =>End getConsumerBusiness
+2022-Mar-72 15:24:20 DEBUG com.cognizant.pas.policy.service.PolicyServiceImpl :createPolicy :142 =>consumerBusinessDetails : {}ConsumerBusinessDetails [consumerID=1, firstName=Sayali, lastName=chaudhari, dob=Fri Mar 11 00:00:00 IST 2022, businessName=salon, panDetails=123456789012, email=s@gmail.com, phone=1234567890, website=www.html.com, businessOverview=salon, validity=two, agentName=saurabh, agentID=12, businessID=1, businessCategory=salon, businessType=rented, businessTurnover=12000, capitalInvested=1200, totalEmployees=12, businessValue=1, businessAge=2]
+2022-Mar-72 15:24:20 DEBUG com.cognizant.pas.policy.service.PolicyServiceImpl :createPolicy :146 =>consumerPolicy : {}ConsumerPolicy [id=null, consumerId=1, policyId=P02, businessId=1, paymentDetails=null, acceptanceStatus=null, policyStatus=Initiated, effectiveDate=null, coveredSum=null, duration=null, acceptedQuote=30000]
+2022-Mar-72 15:24:20 DEBUG com.cognizant.pas.policy.service.PolicyServiceImpl :createPolicy :148 =>consumerPolicysave : {}ConsumerPolicy [id=2, consumerId=1, policyId=P02, businessId=1, paymentDetails=null, acceptanceStatus=null, policyStatus=Initiated, effectiveDate=null, coveredSum=null, duration=null, acceptedQuote=30000]
+2022-Mar-72 15:24:20 INFO com.cognizant.pas.policy.service.PolicyServiceImpl :createPolicy :149 =>End createPolicyService
+2022-Mar-72 15:24:20 DEBUG com.cognizant.pas.policy.controller.PolicyController :createPolicy :79 =>MessageResponse : {}MessageResponse [message=Policy Has been Created with Policy Id : P02 .Thank You Very Much!!]
+2022-Mar-72 15:24:20 INFO com.cognizant.pas.policy.controller.PolicyController :createPolicy :80 =>End createPolicy
+2022-Mar-72 15:24:37 INFO com.cognizant.pas.policy.controller.PolicyController :createPolicy :73 =>Start createPolicy
+2022-Mar-72 15:24:37 INFO com.cognizant.pas.policy.service.PolicyServiceImpl :createPolicy :129 =>Start createPolicyService
+2022-Mar-72 15:24:37 INFO com.cognizant.pas.policy.service.PolicyServiceImpl :getConsumerBusiness :201 =>Start getConsumerBusiness
+2022-Mar-72 15:35:50 INFO com.cognizant.pas.policy.controller.PolicyController :issuePolicy :91 =>Start issuePolicy
+2022-Mar-72 15:35:50 INFO com.cognizant.pas.policy.service.PolicyServiceImpl :issuePolicy :163 =>Start issuePolicyService
+2022-Mar-72 15:35:50 DEBUG com.cognizant.pas.policy.service.PolicyServiceImpl :issuePolicy :168 =>consumerPolicy : {}null
+2022-Mar-72 15:35:50 DEBUG com.cognizant.pas.policy.service.PolicyServiceImpl :issuePolicy :170 =>policyMaster : {}PolicyMaster [id=1, pid=P01, propertyType=Building, consumerType=Owner, assuredSum=2,00,00,000, tenure=2 year, businessValue=0, propertyValue=0, baseLocation=Chennai, type=Pay Back]
+2022-Mar-72 15:35:50 ERROR com.cognizant.pas.policy.service.PolicyServiceImpl :issuePolicy :172 =>Details are mismatched
+2022-Mar-72 15:36:02 INFO com.cognizant.pas.policy.controller.PolicyController :issuePolicy :91 =>Start issuePolicy
+2022-Mar-72 15:36:02 INFO com.cognizant.pas.policy.service.PolicyServiceImpl :issuePolicy :163 =>Start issuePolicyService
+2022-Mar-72 15:36:02 DEBUG com.cognizant.pas.policy.service.PolicyServiceImpl :issuePolicy :168 =>consumerPolicy : {}ConsumerPolicy [id=2, consumerId=1, policyId=P02, businessId=1, paymentDetails=null, acceptanceStatus=null, policyStatus=Initiated, effectiveDate=null, coveredSum=null, duration=null, acceptedQuote=30000]
+2022-Mar-72 15:36:02 DEBUG com.cognizant.pas.policy.service.PolicyServiceImpl :issuePolicy :170 =>policyMaster : {}PolicyMaster [id=2, pid=P02, propertyType=Building, consumerType=Owner, assuredSum=4,00,000, tenure=2 year, businessValue=0, propertyValue=1, baseLocation=Chennai, type=Fire]
+2022-Mar-72 15:36:02 DEBUG com.cognizant.pas.policy.service.PolicyServiceImpl :issuePolicy :187 =>consumerPolicySave : {}ConsumerPolicy [id=2, consumerId=1, policyId=P02, businessId=1, paymentDetails=Success, acceptanceStatus=Accepted, policyStatus=Issued, effectiveDate=2022/03/13 15:36:02, coveredSum=4,00,000, duration=2 year, acceptedQuote=30000]
+2022-Mar-72 15:36:02 INFO com.cognizant.pas.policy.service.PolicyServiceImpl :issuePolicy :188 =>End issuePolicyService
+2022-Mar-72 15:36:02 DEBUG com.cognizant.pas.policy.controller.PolicyController :issuePolicy :113 =>MessageResponse : {}MessageResponse [message=Policy has Issued to PolicyConsumer Id : 2 .Thank You Very Much!!]
+2022-Mar-72 15:36:02 INFO com.cognizant.pas.policy.controller.PolicyController :issuePolicy :114 =>End issuePolicy
+2022-Mar-72 15:36:50 INFO com.cognizant.pas.policy.controller.PolicyController :issuePolicy :91 =>Start issuePolicy
+2022-Mar-72 15:36:50 INFO com.cognizant.pas.policy.service.PolicyServiceImpl :issuePolicy :163 =>Start issuePolicyService
+2022-Mar-72 15:36:50 DEBUG com.cognizant.pas.policy.service.PolicyServiceImpl :issuePolicy :168 =>consumerPolicy : {}ConsumerPolicy [id=2, consumerId=1, policyId=P02, businessId=1, paymentDetails=Success, acceptanceStatus=Accepted, policyStatus=Issued, effectiveDate=2022/03/13 15:36:02, coveredSum=4,00,000, duration=2 year, acceptedQuote=30000]
+2022-Mar-72 15:36:50 DEBUG com.cognizant.pas.policy.service.PolicyServiceImpl :issuePolicy :170 =>policyMaster : {}PolicyMaster [id=2, pid=P02, propertyType=Building, consumerType=Owner, assuredSum=4,00,000, tenure=2 year, businessValue=0, propertyValue=1, baseLocation=Chennai, type=Fire]
+2022-Mar-72 15:36:50 ERROR com.cognizant.pas.policy.service.PolicyServiceImpl :issuePolicy :176 =>already saved
+2022-Mar-72 15:41:18 INFO com.cognizant.pas.policy.controller.PolicyController :viewPolicy :125 =>Start viewPolicy
+2022-Mar-72 15:41:18 INFO com.cognizant.pas.policy.controller.PolicyController :viewPolicy :126 =>consumerId 1
+2022-Mar-72 15:41:18 INFO com.cognizant.pas.policy.controller.PolicyController :viewPolicy :127 =>policyId P02
+2022-Mar-72 15:41:18 INFO com.cognizant.pas.policy.service.PolicyServiceImpl :viewPolicy :94 =>Start viewPolicyService
+2022-Mar-72 15:41:18 INFO com.cognizant.pas.policy.service.PolicyServiceImpl :viewPolicy :99 =>consumerId : {} 1
+2022-Mar-72 15:41:18 INFO com.cognizant.pas.policy.service.PolicyServiceImpl :viewPolicy :100 =>policyId : {}P02
+2022-Mar-72 15:41:18 DEBUG com.cognizant.pas.policy.service.PolicyServiceImpl :viewPolicy :107 =>policyMaster : {}PolicyMaster [id=2, pid=P02, propertyType=Building, consumerType=Owner, assuredSum=4,00,000, tenure=2 year, businessValue=0, propertyValue=1, baseLocation=Chennai, type=Fire]
+2022-Mar-72 15:41:18 DEBUG com.cognizant.pas.policy.service.PolicyServiceImpl :viewPolicy :108 =>consumerPolicy : {}ConsumerPolicy [id=2, consumerId=1, policyId=P02, businessId=1, paymentDetails=Success, acceptanceStatus=Accepted, policyStatus=Issued, effectiveDate=2022/03/13 15:36:02, coveredSum=4,00,000, duration=2 year, acceptedQuote=30000]
+2022-Mar-72 15:41:18 DEBUG com.cognizant.pas.policy.service.PolicyServiceImpl :viewPolicy :116 =>policyDetailsResponse : {}PolicyDetailsResponse [consumerId=1, policyId=P02, propertyType=Building, consumerType=Owner, assuredSum=4,00,000, tenure=2 year, businessValue=0, propertyValue=1, baseLocation=Chennai, type=Fire, businessId=1, paymentDetails=Success, acceptanceStatus=Accepted, policyStatus=Issued, effectiveDate=2022/03/13 15:36:02, coveredSum=4,00,000, duration=2 year, acceptedQuote=30000]
+2022-Mar-72 15:41:18 INFO com.cognizant.pas.policy.service.PolicyServiceImpl :viewPolicy :117 =>End viewPolicyService
+2022-Mar-72 15:41:18 DEBUG com.cognizant.pas.policy.controller.PolicyController :viewPolicy :141 =>PolicyDetailsResponse: {}PolicyDetailsResponse [consumerId=1, policyId=P02, propertyType=Building, consumerType=Owner, assuredSum=4,00,000, tenure=2 year, businessValue=0, propertyValue=1, baseLocation=Chennai, type=Fire, businessId=1, paymentDetails=Success, acceptanceStatus=Accepted, policyStatus=Issued, effectiveDate=2022/03/13 15:36:02, coveredSum=4,00,000, duration=2 year, acceptedQuote=30000]
+2022-Mar-72 15:41:18 INFO com.cognizant.pas.policy.controller.PolicyController :viewPolicy :142 =>End viewPolicy
+2022-Mar-72 15:56:10 INFO com.cognizant.pas.policy.controller.PolicyController :viewPolicy :125 =>Start viewPolicy
+2022-Mar-72 15:56:10 INFO com.cognizant.pas.policy.controller.PolicyController :viewPolicy :126 =>consumerId 1
+2022-Mar-72 15:56:10 INFO com.cognizant.pas.policy.controller.PolicyController :viewPolicy :127 =>policyId P02
+2022-Mar-72 15:56:10 INFO com.cognizant.pas.policy.service.PolicyServiceImpl :viewPolicy :94 =>Start viewPolicyService
+2022-Mar-72 15:56:10 INFO com.cognizant.pas.policy.service.PolicyServiceImpl :viewPolicy :99 =>consumerId : {} 1
+2022-Mar-72 15:56:10 INFO com.cognizant.pas.policy.service.PolicyServiceImpl :viewPolicy :100 =>policyId : {}P02
+2022-Mar-72 15:56:10 DEBUG com.cognizant.pas.policy.service.PolicyServiceImpl :viewPolicy :107 =>policyMaster : {}PolicyMaster [id=2, pid=P02, propertyType=Building, consumerType=Owner, assuredSum=4,00,000, tenure=2 year, businessValue=0, propertyValue=1, baseLocation=Chennai, type=Fire]
+2022-Mar-72 15:56:10 DEBUG com.cognizant.pas.policy.service.PolicyServiceImpl :viewPolicy :108 =>consumerPolicy : {}ConsumerPolicy [id=2, consumerId=1, policyId=P02, businessId=1, paymentDetails=Success, acceptanceStatus=Accepted, policyStatus=Issued, effectiveDate=2022/03/13 15:36:02, coveredSum=4,00,000, duration=2 year, acceptedQuote=30000]
+2022-Mar-72 15:56:10 DEBUG com.cognizant.pas.policy.service.PolicyServiceImpl :viewPolicy :116 =>policyDetailsResponse : {}PolicyDetailsResponse [consumerId=1, policyId=P02, propertyType=Building, consumerType=Owner, assuredSum=4,00,000, tenure=2 year, businessValue=0, propertyValue=1, baseLocation=Chennai, type=Fire, businessId=1, paymentDetails=Success, acceptanceStatus=Accepted, policyStatus=Issued, effectiveDate=2022/03/13 15:36:02, coveredSum=4,00,000, duration=2 year, acceptedQuote=30000]
+2022-Mar-72 15:56:10 INFO com.cognizant.pas.policy.service.PolicyServiceImpl :viewPolicy :117 =>End viewPolicyService
+2022-Mar-72 15:56:10 DEBUG com.cognizant.pas.policy.controller.PolicyController :viewPolicy :141 =>PolicyDetailsResponse: {}PolicyDetailsResponse [consumerId=1, policyId=P02, propertyType=Building, consumerType=Owner, assuredSum=4,00,000, tenure=2 year, businessValue=0, propertyValue=1, baseLocation=Chennai, type=Fire, businessId=1, paymentDetails=Success, acceptanceStatus=Accepted, policyStatus=Issued, effectiveDate=2022/03/13 15:36:02, coveredSum=4,00,000, duration=2 year, acceptedQuote=30000]
+2022-Mar-72 15:56:10 INFO com.cognizant.pas.policy.controller.PolicyController :viewPolicy :142 =>End viewPolicy
+2022-Mar-72 18:56:17 INFO com.cognizant.pas.policy.controller.PolicyController :getQuotes :155 =>Start getQuotes
+2022-Mar-72 18:56:17 INFO com.cognizant.pas.policy.service.PolicyServiceImpl :getQuotes :75 =>Start getQuotesService
+2022-Mar-72 18:56:18 DEBUG com.cognizant.pas.policy.service.PolicyServiceImpl :getQuotes :77 =>quote : {}90,000 INR
+2022-Mar-72 18:56:18 INFO com.cognizant.pas.policy.service.PolicyServiceImpl :getQuotes :78 =>End getQuotesService
+2022-Mar-72 18:56:18 DEBUG com.cognizant.pas.policy.controller.PolicyController :getQuotes :162 =>QuotesMaster: {}QuotesDetailsResponse [quotes=90,000 INR]
+2022-Mar-72 18:56:18 INFO com.cognizant.pas.policy.controller.PolicyController :getQuotes :163 =>End getQuotes
+2022-Mar-72 18:56:42 INFO com.cognizant.pas.policy.controller.PolicyController :getQuotes :155 =>Start getQuotes
+2022-Mar-72 18:56:42 INFO com.cognizant.pas.policy.service.PolicyServiceImpl :getQuotes :75 =>Start getQuotesService
+2022-Mar-72 18:56:42 DEBUG com.cognizant.pas.policy.service.PolicyServiceImpl :getQuotes :77 =>quote : {}No Quotes, Contact Insurance Provider
+2022-Mar-72 18:56:42 INFO com.cognizant.pas.policy.service.PolicyServiceImpl :getQuotes :78 =>End getQuotesService
+2022-Mar-72 18:56:42 DEBUG com.cognizant.pas.policy.controller.PolicyController :getQuotes :162 =>QuotesMaster: {}QuotesDetailsResponse [quotes=No Quotes, Contact Insurance Provider]
+2022-Mar-72 18:56:42 INFO com.cognizant.pas.policy.controller.PolicyController :getQuotes :163 =>End getQuotes
+2022-Mar-72 19:03:57 INFO com.cognizant.pas.policy.controller.PolicyController :createPolicy :73 =>Start createPolicy
+2022-Mar-72 19:03:57 INFO com.cognizant.pas.policy.service.PolicyServiceImpl :createPolicy :129 =>Start createPolicyService
+2022-Mar-72 19:03:57 INFO com.cognizant.pas.policy.service.PolicyServiceImpl :getConsumerBusiness :201 =>Start getConsumerBusiness
+2022-Mar-72 19:03:57 DEBUG com.cognizant.pas.policy.service.PolicyServiceImpl :getConsumerBusiness :203 =>consumerBusinessDetails : {}ConsumerBusinessDetails [consumerID=1, firstName=sau, lastName=awr, dob=Tue Mar 01 00:00:00 IST 2022, businessName=erftg, panDetails=qwertyuioplk, email=s@gmail.com, phone=9999999999, website=erft3r, businessOverview=sgytgvhbjnk, validity=dcjbgy, agentName=sdfv, agentID=234, businessID=1, businessCategory=gaming, businessType=Rented, businessTurnover=12000, capitalInvested=1200, totalEmployees=23, businessValue=1, businessAge=2]
+2022-Mar-72 19:03:57 INFO com.cognizant.pas.policy.service.PolicyServiceImpl :getConsumerBusiness :204 =>End getConsumerBusiness
+2022-Mar-72 19:03:57 DEBUG com.cognizant.pas.policy.service.PolicyServiceImpl :createPolicy :142 =>consumerBusinessDetails : {}ConsumerBusinessDetails [consumerID=1, firstName=sau, lastName=awr, dob=Tue Mar 01 00:00:00 IST 2022, businessName=erftg, panDetails=qwertyuioplk, email=s@gmail.com, phone=9999999999, website=erft3r, businessOverview=sgytgvhbjnk, validity=dcjbgy, agentName=sdfv, agentID=234, businessID=1, businessCategory=gaming, businessType=Rented, businessTurnover=12000, capitalInvested=1200, totalEmployees=23, businessValue=1, businessAge=2]
+2022-Mar-72 19:03:57 DEBUG com.cognizant.pas.policy.service.PolicyServiceImpl :createPolicy :146 =>consumerPolicy : {}ConsumerPolicy [id=null, consumerId=1, policyId=P01, businessId=1, paymentDetails=null, acceptanceStatus=null, policyStatus=Initiated, effectiveDate=null, coveredSum=null, duration=null, acceptedQuote=89000]
+2022-Mar-72 19:03:57 DEBUG com.cognizant.pas.policy.service.PolicyServiceImpl :createPolicy :148 =>consumerPolicysave : {}ConsumerPolicy [id=2, consumerId=1, policyId=P01, businessId=1, paymentDetails=null, acceptanceStatus=null, policyStatus=Initiated, effectiveDate=null, coveredSum=null, duration=null, acceptedQuote=89000]
+2022-Mar-72 19:03:57 INFO com.cognizant.pas.policy.service.PolicyServiceImpl :createPolicy :149 =>End createPolicyService
+2022-Mar-72 19:03:57 DEBUG com.cognizant.pas.policy.controller.PolicyController :createPolicy :79 =>MessageResponse : {}MessageResponse [message=Policy Has been Created with Policy Id : P01 .Thank You Very Much!!]
+2022-Mar-72 19:03:57 INFO com.cognizant.pas.policy.controller.PolicyController :createPolicy :80 =>End createPolicy
+2022-Mar-72 19:04:22 INFO com.cognizant.pas.policy.controller.PolicyController :issuePolicy :91 =>Start issuePolicy
+2022-Mar-72 19:04:22 INFO com.cognizant.pas.policy.service.PolicyServiceImpl :issuePolicy :163 =>Start issuePolicyService
+2022-Mar-72 19:04:22 DEBUG com.cognizant.pas.policy.service.PolicyServiceImpl :issuePolicy :168 =>consumerPolicy : {}ConsumerPolicy [id=2, consumerId=1, policyId=P01, businessId=1, paymentDetails=null, acceptanceStatus=null, policyStatus=Initiated, effectiveDate=null, coveredSum=null, duration=null, acceptedQuote=89000]
+2022-Mar-72 19:04:22 DEBUG com.cognizant.pas.policy.service.PolicyServiceImpl :issuePolicy :170 =>policyMaster : {}PolicyMaster [id=1, pid=P01, propertyType=Building, consumerType=Owner, assuredSum=2,00,00,000, tenure=2 year, businessValue=0, propertyValue=0, baseLocation=Chennai, type=Pay Back]
+2022-Mar-72 19:04:23 DEBUG com.cognizant.pas.policy.service.PolicyServiceImpl :issuePolicy :187 =>consumerPolicySave : {}ConsumerPolicy [id=2, consumerId=1, policyId=P01, businessId=1, paymentDetails=Success, acceptanceStatus=Accepted, policyStatus=Issued, effectiveDate=2022/03/13 19:04:22, coveredSum=2,00,00,000, duration=2 year, acceptedQuote=89000]
+2022-Mar-72 19:04:23 INFO com.cognizant.pas.policy.service.PolicyServiceImpl :issuePolicy :188 =>End issuePolicyService
+2022-Mar-72 19:04:23 DEBUG com.cognizant.pas.policy.controller.PolicyController :issuePolicy :113 =>MessageResponse : {}MessageResponse [message=Policy has Issued to PolicyConsumer Id : 2 .Thank You Very Much!!]
+2022-Mar-72 19:04:23 INFO com.cognizant.pas.policy.controller.PolicyController :issuePolicy :114 =>End issuePolicy
+2022-Mar-72 19:04:48 INFO com.cognizant.pas.policy.controller.PolicyController :viewPolicy :125 =>Start viewPolicy
+2022-Mar-72 19:04:48 INFO com.cognizant.pas.policy.controller.PolicyController :viewPolicy :126 =>consumerId 1
+2022-Mar-72 19:04:48 INFO com.cognizant.pas.policy.controller.PolicyController :viewPolicy :127 =>policyId P01
+2022-Mar-72 19:04:48 INFO com.cognizant.pas.policy.service.PolicyServiceImpl :viewPolicy :94 =>Start viewPolicyService
+2022-Mar-72 19:04:48 INFO com.cognizant.pas.policy.service.PolicyServiceImpl :viewPolicy :99 =>consumerId : {} 1
+2022-Mar-72 19:04:48 INFO com.cognizant.pas.policy.service.PolicyServiceImpl :viewPolicy :100 =>policyId : {}P01
+2022-Mar-72 19:04:48 DEBUG com.cognizant.pas.policy.service.PolicyServiceImpl :viewPolicy :107 =>policyMaster : {}PolicyMaster [id=1, pid=P01, propertyType=Building, consumerType=Owner, assuredSum=2,00,00,000, tenure=2 year, businessValue=0, propertyValue=0, baseLocation=Chennai, type=Pay Back]
+2022-Mar-72 19:04:48 DEBUG com.cognizant.pas.policy.service.PolicyServiceImpl :viewPolicy :108 =>consumerPolicy : {}ConsumerPolicy [id=2, consumerId=1, policyId=P01, businessId=1, paymentDetails=Success, acceptanceStatus=Accepted, policyStatus=Issued, effectiveDate=2022/03/13 19:04:22, coveredSum=2,00,00,000, duration=2 year, acceptedQuote=89000]
+2022-Mar-72 19:04:48 DEBUG com.cognizant.pas.policy.service.PolicyServiceImpl :viewPolicy :116 =>policyDetailsResponse : {}PolicyDetailsResponse [consumerId=1, policyId=P01, propertyType=Building, consumerType=Owner, assuredSum=2,00,00,000, tenure=2 year, businessValue=0, propertyValue=0, baseLocation=Chennai, type=Pay Back, businessId=1, paymentDetails=Success, acceptanceStatus=Accepted, policyStatus=Issued, effectiveDate=2022/03/13 19:04:22, coveredSum=2,00,00,000, duration=2 year, acceptedQuote=89000]
+2022-Mar-72 19:04:48 INFO com.cognizant.pas.policy.service.PolicyServiceImpl :viewPolicy :117 =>End viewPolicyService
+2022-Mar-72 19:04:48 DEBUG com.cognizant.pas.policy.controller.PolicyController :viewPolicy :141 =>PolicyDetailsResponse: {}PolicyDetailsResponse [consumerId=1, policyId=P01, propertyType=Building, consumerType=Owner, assuredSum=2,00,00,000, tenure=2 year, businessValue=0, propertyValue=0, baseLocation=Chennai, type=Pay Back, businessId=1, paymentDetails=Success, acceptanceStatus=Accepted, policyStatus=Issued, effectiveDate=2022/03/13 19:04:22, coveredSum=2,00,00,000, duration=2 year, acceptedQuote=89000]
+2022-Mar-72 19:04:48 INFO com.cognizant.pas.policy.controller.PolicyController :viewPolicy :142 =>End viewPolicy
+2022-Apr-94 09:22:38 INFO com.cognizant.pas.policy.controller.PolicyController :getQuotes :155 =>Start getQuotes
+2022-Apr-94 09:22:39 INFO com.cognizant.pas.policy.service.PolicyServiceImpl :getQuotes :75 =>Start getQuotesService
+2022-Apr-94 09:22:39 DEBUG com.cognizant.pas.policy.service.PolicyServiceImpl :getQuotes :77 =>quote : {}90,000 INR
+2022-Apr-94 09:22:39 INFO com.cognizant.pas.policy.service.PolicyServiceImpl :getQuotes :78 =>End getQuotesService
+2022-Apr-94 09:22:39 DEBUG com.cognizant.pas.policy.controller.PolicyController :getQuotes :162 =>QuotesMaster: {}QuotesDetailsResponse [quotes=90,000 INR]
+2022-Apr-94 09:22:39 INFO com.cognizant.pas.policy.controller.PolicyController :getQuotes :163 =>End getQuotes
+2022-Apr-94 09:27:02 INFO com.cognizant.pas.policy.controller.PolicyController :getQuotes :155 =>Start getQuotes
+2022-Apr-94 09:27:02 INFO com.cognizant.pas.policy.service.PolicyServiceImpl :getQuotes :75 =>Start getQuotesService
+2022-Apr-94 09:27:02 DEBUG com.cognizant.pas.policy.service.PolicyServiceImpl :getQuotes :77 =>quote : {}90,000 INR
+2022-Apr-94 09:27:02 INFO com.cognizant.pas.policy.service.PolicyServiceImpl :getQuotes :78 =>End getQuotesService
+2022-Apr-94 09:27:02 DEBUG com.cognizant.pas.policy.controller.PolicyController :getQuotes :162 =>QuotesMaster: {}QuotesDetailsResponse [quotes=90,000 INR]
+2022-Apr-94 09:27:02 INFO com.cognizant.pas.policy.controller.PolicyController :getQuotes :163 =>End getQuotes
+2022-Apr-94 12:46:35 INFO com.cognizant.pas.policy.controller.PolicyController :getQuotes :155 =>Start getQuotes
+2022-Apr-94 12:46:35 INFO com.cognizant.pas.policy.service.PolicyServiceImpl :getQuotes :75 =>Start getQuotesService
+2022-Apr-94 12:46:36 DEBUG com.cognizant.pas.policy.service.PolicyServiceImpl :getQuotes :77 =>quote : {}81,000 INR
+2022-Apr-94 12:46:36 INFO com.cognizant.pas.policy.service.PolicyServiceImpl :getQuotes :78 =>End getQuotesService
+2022-Apr-94 12:46:36 DEBUG com.cognizant.pas.policy.controller.PolicyController :getQuotes :162 =>QuotesMaster: {}QuotesDetailsResponse [quotes=81,000 INR]
+2022-Apr-94 12:46:36 INFO com.cognizant.pas.policy.controller.PolicyController :getQuotes :163 =>End getQuotes
+2022-Apr-94 12:46:56 INFO com.cognizant.pas.policy.controller.PolicyController :createPolicy :73 =>Start createPolicy
+2022-Apr-94 12:46:56 INFO com.cognizant.pas.policy.service.PolicyServiceImpl :createPolicy :129 =>Start createPolicyService
+2022-Apr-94 12:46:56 INFO com.cognizant.pas.policy.service.PolicyServiceImpl :getConsumerBusiness :201 =>Start getConsumerBusiness
+2022-Apr-94 12:46:56 DEBUG com.cognizant.pas.policy.service.PolicyServiceImpl :getConsumerBusiness :203 =>consumerBusinessDetails : {}ConsumerBusinessDetails [consumerID=1, firstName=Saurabh, lastName=Ad, dob=Wed Apr 06 00:00:00 IST 2022, businessName=Gaming, panDetails=123456789012, email=s@gmail.com, phone=8888888888, website=www.skyesports.com, businessOverview=Gamign, validity=Four, agentName=Sky, agentID=123, businessID=1, businessCategory=Gamign, businessType=Owned, businessTurnover=10000, capitalInvested=1000, totalEmployees=2, businessValue=1, businessAge=1]
+2022-Apr-94 12:46:56 INFO com.cognizant.pas.policy.service.PolicyServiceImpl :getConsumerBusiness :204 =>End getConsumerBusiness
+2022-Apr-94 12:46:56 DEBUG com.cognizant.pas.policy.service.PolicyServiceImpl :createPolicy :142 =>consumerBusinessDetails : {}ConsumerBusinessDetails [consumerID=1, firstName=Saurabh, lastName=Ad, dob=Wed Apr 06 00:00:00 IST 2022, businessName=Gaming, panDetails=123456789012, email=s@gmail.com, phone=8888888888, website=www.skyesports.com, businessOverview=Gamign, validity=Four, agentName=Sky, agentID=123, businessID=1, businessCategory=Gamign, businessType=Owned, businessTurnover=10000, capitalInvested=1000, totalEmployees=2, businessValue=1, businessAge=1]
+2022-Apr-94 12:46:56 DEBUG com.cognizant.pas.policy.service.PolicyServiceImpl :createPolicy :146 =>consumerPolicy : {}ConsumerPolicy [id=null, consumerId=1, policyId=P01, businessId=1, paymentDetails=null, acceptanceStatus=null, policyStatus=Initiated, effectiveDate=null, coveredSum=null, duration=null, acceptedQuote=81000]
+2022-Apr-94 12:46:56 DEBUG com.cognizant.pas.policy.service.PolicyServiceImpl :createPolicy :148 =>consumerPolicysave : {}ConsumerPolicy [id=2, consumerId=1, policyId=P01, businessId=1, paymentDetails=null, acceptanceStatus=null, policyStatus=Initiated, effectiveDate=null, coveredSum=null, duration=null, acceptedQuote=81000]
+2022-Apr-94 12:46:56 INFO com.cognizant.pas.policy.service.PolicyServiceImpl :createPolicy :149 =>End createPolicyService
+2022-Apr-94 12:46:56 DEBUG com.cognizant.pas.policy.controller.PolicyController :createPolicy :79 =>MessageResponse : {}MessageResponse [message=Policy Has been Created with Policy Id : P01 .Thank You Very Much!!]
+2022-Apr-94 12:46:56 INFO com.cognizant.pas.policy.controller.PolicyController :createPolicy :80 =>End createPolicy
+2022-Apr-94 12:47:18 INFO com.cognizant.pas.policy.controller.PolicyController :issuePolicy :91 =>Start issuePolicy
+2022-Apr-94 12:47:18 INFO com.cognizant.pas.policy.service.PolicyServiceImpl :issuePolicy :163 =>Start issuePolicyService
+2022-Apr-94 12:47:18 DEBUG com.cognizant.pas.policy.service.PolicyServiceImpl :issuePolicy :168 =>consumerPolicy : {}ConsumerPolicy [id=2, consumerId=1, policyId=P01, businessId=1, paymentDetails=null, acceptanceStatus=null, policyStatus=Initiated, effectiveDate=null, coveredSum=null, duration=null, acceptedQuote=81000]
+2022-Apr-94 12:47:18 DEBUG com.cognizant.pas.policy.service.PolicyServiceImpl :issuePolicy :170 =>policyMaster : {}PolicyMaster [id=1, pid=P01, propertyType=Building, consumerType=Owner, assuredSum=2,00,00,000, tenure=2 year, businessValue=0, propertyValue=0, baseLocation=Chennai, type=Pay Back]
+2022-Apr-94 12:47:18 DEBUG com.cognizant.pas.policy.service.PolicyServiceImpl :issuePolicy :187 =>consumerPolicySave : {}ConsumerPolicy [id=2, consumerId=1, policyId=P01, businessId=1, paymentDetails=Success, acceptanceStatus=Accepted, policyStatus=Issued, effectiveDate=2022/04/04 12:47:18, coveredSum=2,00,00,000, duration=2 year, acceptedQuote=81000]
+2022-Apr-94 12:47:18 INFO com.cognizant.pas.policy.service.PolicyServiceImpl :issuePolicy :188 =>End issuePolicyService
+2022-Apr-94 12:47:18 DEBUG com.cognizant.pas.policy.controller.PolicyController :issuePolicy :113 =>MessageResponse : {}MessageResponse [message=Policy has Issued to PolicyConsumer Id : 2 .Thank You Very Much!!]
+2022-Apr-94 12:47:18 INFO com.cognizant.pas.policy.controller.PolicyController :issuePolicy :114 =>End issuePolicy
+2022-Apr-94 12:47:32 INFO com.cognizant.pas.policy.controller.PolicyController :viewPolicy :125 =>Start viewPolicy
+2022-Apr-94 12:47:32 INFO com.cognizant.pas.policy.controller.PolicyController :viewPolicy :126 =>consumerId 1
+2022-Apr-94 12:47:32 INFO com.cognizant.pas.policy.controller.PolicyController :viewPolicy :127 =>policyId P01
+2022-Apr-94 12:47:32 INFO com.cognizant.pas.policy.service.PolicyServiceImpl :viewPolicy :94 =>Start viewPolicyService
+2022-Apr-94 12:47:32 INFO com.cognizant.pas.policy.service.PolicyServiceImpl :viewPolicy :99 =>consumerId : {} 1
+2022-Apr-94 12:47:32 INFO com.cognizant.pas.policy.service.PolicyServiceImpl :viewPolicy :100 =>policyId : {}P01
+2022-Apr-94 12:47:32 DEBUG com.cognizant.pas.policy.service.PolicyServiceImpl :viewPolicy :107 =>policyMaster : {}PolicyMaster [id=1, pid=P01, propertyType=Building, consumerType=Owner, assuredSum=2,00,00,000, tenure=2 year, businessValue=0, propertyValue=0, baseLocation=Chennai, type=Pay Back]
+2022-Apr-94 12:47:32 DEBUG com.cognizant.pas.policy.service.PolicyServiceImpl :viewPolicy :108 =>consumerPolicy : {}ConsumerPolicy [id=2, consumerId=1, policyId=P01, businessId=1, paymentDetails=Success, acceptanceStatus=Accepted, policyStatus=Issued, effectiveDate=2022/04/04 12:47:18, coveredSum=2,00,00,000, duration=2 year, acceptedQuote=81000]
+2022-Apr-94 12:47:32 DEBUG com.cognizant.pas.policy.service.PolicyServiceImpl :viewPolicy :116 =>policyDetailsResponse : {}PolicyDetailsResponse [consumerId=1, policyId=P01, propertyType=Building, consumerType=Owner, assuredSum=2,00,00,000, tenure=2 year, businessValue=0, propertyValue=0, baseLocation=Chennai, type=Pay Back, businessId=1, paymentDetails=Success, acceptanceStatus=Accepted, policyStatus=Issued, effectiveDate=2022/04/04 12:47:18, coveredSum=2,00,00,000, duration=2 year, acceptedQuote=81000]
+2022-Apr-94 12:47:32 INFO com.cognizant.pas.policy.service.PolicyServiceImpl :viewPolicy :117 =>End viewPolicyService
+2022-Apr-94 12:47:32 DEBUG com.cognizant.pas.policy.controller.PolicyController :viewPolicy :141 =>PolicyDetailsResponse: {}PolicyDetailsResponse [consumerId=1, policyId=P01, propertyType=Building, consumerType=Owner, assuredSum=2,00,00,000, tenure=2 year, businessValue=0, propertyValue=0, baseLocation=Chennai, type=Pay Back, businessId=1, paymentDetails=Success, acceptanceStatus=Accepted, policyStatus=Issued, effectiveDate=2022/04/04 12:47:18, coveredSum=2,00,00,000, duration=2 year, acceptedQuote=81000]
+2022-Apr-94 12:47:32 INFO com.cognizant.pas.policy.controller.PolicyController :viewPolicy :142 =>End viewPolicy

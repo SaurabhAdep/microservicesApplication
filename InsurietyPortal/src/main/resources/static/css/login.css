@@ -1,0 +1,83 @@
+html,
+body {
+    height: 100%;
+}
+
+
+/* .cfooter {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+} */
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+
+.details-signin {
+    width: 100%;
+    max-width: 530px;
+    padding: 15px;
+    margin: auto;
+}
+
+.form-signin .checkbox {
+    font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+body {
+    background-image: linear-gradient(to right top, #da1786, #c92b9b, #b23bad, #954abc, #7255c6, #5969d4, #397ade, #0089e3, #00a5ec, #00bfec, #3ad6e7, #7debe3);
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+.navbar-toggler-icon {
+    color: white;
+}
+
+.navbar-toggler {
+    border: 4px solid white;
+    border-radius: 0.5rem;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: mediumvioletred;
+    border-color: mediumvioletred;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}

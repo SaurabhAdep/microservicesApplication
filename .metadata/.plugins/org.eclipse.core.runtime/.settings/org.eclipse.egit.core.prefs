@@ -1,0 +1,4 @@
+GitRepositoriesView.GitDirectories=C\:\\Users\\2080118\\Documents\\workspace-spring-tool-suite-4-4.13.0.RELEASE\\FinalPolicyProjectNew\\ConsumerMicroservice\\.git;C\:\\Users\\2080118\\Documents\\workspace-spring-tool-suite-4-4.13.0.RELEASE\\FinalPolicyProjectNew\\QuotesMicroservice\\.git;C\:\\Users\\2080118\\Documents\\workspace-spring-tool-suite-4-4.13.0.RELEASE\\FinalPolicyProjectNew\\Authorization-services\\.git;C\:\\Users\\2080118\\Documents\\workspace-spring-tool-suite-4-4.13.0.RELEASE\\FinalPolicyProjectNew\\PolicyMicroservice\\.git;
+GitRepositoriesView.GitDirectories.relative=ConsumerMicroservice\\.git;QuotesMicroservice\\.git;Authorization-services\\.git;PolicyMicroservice\\.git;
+core_autoIgnoreDerivedResources=false
+eclipse.preferences.version=1
