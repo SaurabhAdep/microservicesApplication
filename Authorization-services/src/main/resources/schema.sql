@@ -1,0 +1,1 @@
+create table USER(id int primary key , name varchar(256) not null, password varchar(256) not null);

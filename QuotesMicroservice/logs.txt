@@ -1,0 +1,14 @@
+2022-Mar-72 18:56:17 INFO com.cognizant.pas.quotes.controller.QuotesController :getQuotesForPolicy :32 =>Start
+2022-Mar-72 18:56:17 DEBUG com.cognizant.pas.quotes.controller.QuotesController :getQuotesForPolicy :39 =>QuotesMaster: {}QuotesMaster(id=1, businessValue=0, propertyValue=0, propertyType=Factory Equipment, quotes=90,000 INR)
+2022-Mar-72 18:56:17 INFO com.cognizant.pas.quotes.controller.QuotesController :getQuotesForPolicy :47 =>End
+2022-Mar-72 18:56:42 INFO com.cognizant.pas.quotes.controller.QuotesController :getQuotesForPolicy :32 =>Start
+2022-Mar-72 18:56:42 ERROR com.cognizant.pas.quotes.controller.QuotesController :getQuotesForPolicy :43 =>No Quotes, Contact Insurance Provider
+2022-Apr-94 09:22:39 INFO com.cognizant.pas.quotes.controller.QuotesController :getQuotesForPolicy :32 =>Start
+2022-Apr-94 09:22:39 DEBUG com.cognizant.pas.quotes.controller.QuotesController :getQuotesForPolicy :39 =>QuotesMaster: {}QuotesMaster(id=1, businessValue=0, propertyValue=0, propertyType=Factory Equipment, quotes=90,000 INR)
+2022-Apr-94 09:22:39 INFO com.cognizant.pas.quotes.controller.QuotesController :getQuotesForPolicy :47 =>End
+2022-Apr-94 09:27:02 INFO com.cognizant.pas.quotes.controller.QuotesController :getQuotesForPolicy :32 =>Start
+2022-Apr-94 09:27:02 DEBUG com.cognizant.pas.quotes.controller.QuotesController :getQuotesForPolicy :39 =>QuotesMaster: {}QuotesMaster(id=1, businessValue=0, propertyValue=0, propertyType=Factory Equipment, quotes=90,000 INR)
+2022-Apr-94 09:27:02 INFO com.cognizant.pas.quotes.controller.QuotesController :getQuotesForPolicy :47 =>End
+2022-Apr-94 12:46:35 INFO com.cognizant.pas.quotes.controller.QuotesController :getQuotesForPolicy :32 =>Start
+2022-Apr-94 12:46:36 DEBUG com.cognizant.pas.quotes.controller.QuotesController :getQuotesForPolicy :39 =>QuotesMaster: {}QuotesMaster(id=32, businessValue=0, propertyValue=0, propertyType=Building, quotes=81,000 INR)
+2022-Apr-94 12:46:36 INFO com.cognizant.pas.quotes.controller.QuotesController :getQuotesForPolicy :47 =>End
